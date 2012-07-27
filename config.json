@@ -1,43 +1,44 @@
 {
-	"author": "support@trigger.io", 
-	"config_version": "2", 
-	"description": "My Extension Description (built on WebMynd)", 
-	"modules": {
-		"activations": [
-			{
-				"patterns": [
-					"http://*/*"
-				], 
-				"scripts": [], 
-				"styles": [],
-				"run_at": "ready"
-			}
-		], 
-		"button": {
-			"default_icon": "img/logo-forge.png", 
-			"default_popup": "index.html"
-		}, 
-		"contact": true, 
-		"event": true, 
-		"file": true, 
-		"geolocation": true, 
-		"is": true, 
-		"logging": {
-			"level": "INFO"
-		}, 
-		"message": true, 
-		"notification": true, 
-		"prefs": true, 
-		"request": {
-			"permissions": [
-				"https://twitter.com/*"
-			]
-		}, 
-		"sms": true, 
-		"tabs": true, 
-		"tools": true
-	}, 
-	"name": "Demo", 
-	"platform_version": "v1.3", 
-	"version": "0.1"
+    "config_version": "3", 
+    "author": "support@trigger.io", 
+    "modules": {
+        "geolocation": true, 
+        "logging": {
+            "level": "INFO"
+        }, 
+        "tabs": true, 
+        "notification": true, 
+        "button": {
+            "default_icon": "img/logo-forge.png", 
+            "default_popup": "index.html"
+        }, 
+        "sms": true, 
+        "request": {
+            "permissions": [
+                "https://twitter.com/*"
+            ]
+        }, 
+        "reload": true, 
+        "contact": true, 
+        "file": true, 
+        "activations": [
+            {
+                "styles": [], 
+                "patterns": [
+                    "http://*/*"
+                ], 
+                "scripts": [], 
+                "run_at": "ready"
+            }
+        ], 
+        "message": true, 
+        "prefs": true, 
+        "tools": true, 
+        "event": true, 
+        "is": true
+    }, 
+    "name": "Demo", 
+    "platform_version": "v1.4", 
+    "version": "0.1", 
+    "description": "My Extension Description (built on WebMynd)"
 }
